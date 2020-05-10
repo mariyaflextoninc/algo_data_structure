@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="35" started-at="2017-03-26T23:07:42Z" finished-at="2017-03-26T23:07:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="35" started-at="2017-03-26T23:07:42Z" finished-at="2017-03-26T23:07:42Z">
+      <class name="Test.TestLinkedList">
+        <test-method status="PASS" signature="allocateResources()[pri:0, instance:Test.TestLinkedList@28d47c65]" name="allocateResources" is-config="true" duration-ms="11" started-at="2017-03-26T16:07:42Z" finished-at="2017-03-26T16:07:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allocateResources -->
+        <test-method status="PASS" signature="testAdd(int, int)[pri:0, instance:Test.TestLinkedList@28d47c65]" name="testAdd" duration-ms="6" started-at="2017-03-26T16:07:42Z" data-provider="dbAdd" finished-at="2017-03-26T16:07:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[11]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+        <test-method status="PASS" signature="testAdd(int, int)[pri:0, instance:Test.TestLinkedList@28d47c65]" name="testAdd" duration-ms="1" started-at="2017-03-26T16:07:42Z" data-provider="dbAdd" finished-at="2017-03-26T16:07:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[13]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAdd -->
+      </class> <!-- Test.TestLinkedList -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

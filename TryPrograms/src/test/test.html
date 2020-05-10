@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+<script type="text/javascript">
+ 
+ var pos = 1;
+ var searchString = "abc";
+ var strNew = "myabcis";
+ if (!String.prototype.startsWith) {
+	 String.prototype.startsWith = function (searchString, position) {
+	"use strict";
+	var str = this,
+	strlen = str.length,
+	seaLen = searchString.length, pos = position || 0 , i;
+	
+	if(seaLen + pos > strLen){
+		return false;
+	}
+	
+	for(var i =0 i <sealen;i++){
+		if(str.charCodeAt(pos+i) != searchString.charCodeAt(pos)){
+			return false;
+		}
+	}
+	return true;
+ }
+ document.write(strNew.prototype.startsWith(searchString,pos));
+ document.write("my test");
+</script>
+</head>
+<body>
+
+</body>
+</html>
